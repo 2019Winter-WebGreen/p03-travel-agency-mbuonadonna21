@@ -1,0 +1,30 @@
+/*
+* Mia
+* April 9, 2019
+* Padua Panda Travel Agency Curacao Project
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    
+    /* I changed my backgound color to a light blue to match the pictures I used on the web page. */
+    background-color: aliceblue
+    
+}
+
+/* I changed the sizes of the images so that the middle picture was the longest. */
+#beach { width: 350px; height: 250px}
+#color { width: 400px; height: 250px}
+#resort { width: 350px; height: 250px}
+
+/* I used thead, tbody, and tfoot to change the colors of the parts of my chart to stand out against the light blue background. */
+thead {background-color: lightpink}
+tbody {background-color: lightyellow}
+tfoot {background-color: ghostwhite}
